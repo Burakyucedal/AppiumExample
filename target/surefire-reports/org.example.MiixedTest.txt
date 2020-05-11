@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.example.MiixedTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.721 s <<< FAILURE! - in org.example.MiixedTest
+setUp(org.example.MiixedTest)  Time elapsed: 0.688 s  <<< ERROR!
+org.openqa.selenium.WebDriverException: 
+Connection refused (Connection refused)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'testinium-MacBook-Pro.local', ip: 'fe80:0:0:0:1c6c:3921:30eb:90b9%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.4', java.version: '1.8.0_241'
+Driver info: driver.version: AndroidDriver
+	at org.example.MiixedTest.setUp(MiixedTest.java:17)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at org.example.MiixedTest.setUp(MiixedTest.java:17)
+
